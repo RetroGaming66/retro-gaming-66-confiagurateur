@@ -40,7 +40,7 @@ jobs:
     - name: Build
       run: npm run build
       env:
-        VITE_BASE_PATH: /product-configurator-3d/
+        VITE_BASE_PATH: /retro-gaming-66-configurateur/
         
     - name: Setup Pages
       if: github.ref == 'refs/heads/main'
