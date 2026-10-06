@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => {
   return {
     plugins: [react()],
     // Use environment variable for base path, default to root
-    base: env.VITE_BASE_PATH || '/',
+    base: '/retro-gaming-66-configurateur/',
     resolve: {
       alias: {
         '@': '/src'
